@@ -32,6 +32,10 @@ This is the repository used to store all the code used in the process of making 
 
 The subject of this thesis is motivated by the fact that AI-generated text and language have been a growing concern during the last years. This has been especially true in academic environments, where there has been several cases of assignments entirely created by AI. These are difficult to detect due to the lack accurate tools.
 
+### [TrabajoFinalHipermedia.github.io](https://github.com/IvanInRainbows/TrabajoFinalHipermedia.github.io)
+
+The repository for the final project of the Hypermedia technologies (Tecnologías hipermedia) course taken in the Complutense University of madrid made using HTML, CSS and JavaScript. The page is also [published](https://github.com/IvanInRainbows/TrabajoFinalHipermedia.github.io) in Github pages. It's not working properly tho, it should have some fancy dynamic vector background.
+
 ### [cmdline-course](https://github.com/IvanInRainbows/cmdline-course)
 
 Sample repository made for the [Command-Line Tools for Linguists](https://studies.helsinki.fi/kurssit/toteutus/hy-opt-cur-2526-261401a1-c550-4436-91b9-7edf4a1a3b57/KIK-LG221) course. Shows how git repositories work, how files change and how the repository is branched.
