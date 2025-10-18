@@ -1,6 +1,25 @@
 @import "fonts";
 @import "rouge-github";
 
+// Start of the custom styles
+
+header img {
+  border: 6px solid rgb(0, 0, 0);
+  border-radius: 35px 2px 35px 2px;
+}
+
+header h1 {
+  margin:0 0 20px;
+}
+
+h1, h2 {
+  margin:0 10px 20px;
+  color:#222;
+  font-family: 'Courier New', Courier, monospace; 
+}
+
+// Start of the Default starting styles
+
 body {
   background-color: #fff;
   padding:50px;
@@ -9,9 +28,10 @@ body {
   font-weight:400;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
+  font-family: 'Courier New', Courier, monospace; //Changed
 }
 
 p, ul, ol, table, pre, dl {
