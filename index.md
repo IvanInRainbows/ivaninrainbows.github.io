@@ -34,7 +34,7 @@ The subject of this thesis is motivated by the fact that AI-generated text and l
 
 ### [TrabajoFinalHipermedia.github.io](https://github.com/IvanInRainbows/TrabajoFinalHipermedia.github.io)
 
-The repository for the final project of the Hypermedia technologies (Tecnologías hipermedia) course taken in the Complutense University of madrid made using HTML, CSS and JavaScript. The page is also [published](https://github.com/IvanInRainbows/TrabajoFinalHipermedia.github.io) in Github pages. It's not working properly tho, it should have some fancy dynamic vector background.
+The repository for the final project of the Hypermedia technologies (Tecnologías hipermedia) course taken in the Complutense University of madrid made using HTML, CSS and JavaScript. The page is also [published](TrabajoFinalHipermedia.github.io) in Github pages. It's not working properly tho, it should have some fancy dynamic vector background.
 
 ### [cmdline-course](https://github.com/IvanInRainbows/cmdline-course)
 
