@@ -225,3 +225,5 @@ My email address is of the form ivan.montejodegarcini@helsinki.fi.
 ## Misc. 
 
 Check out my [CV](https://www.overleaf.com/read/tyvbmmkpkczv#110a05) 
+
+You can also add me on [Steam](https://steamcommunity.com/id/IvanInRainbows/)
