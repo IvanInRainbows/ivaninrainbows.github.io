@@ -2,27 +2,64 @@
 layout: default
 ---
 
+<style type="text/css">
+.logo{
+    margin: auto;
+}
+
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;}
+.tg td{
+    border: 1px solid rgba(255, 0, 0, 0);
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;}
+.tg th{
+    border: 1px solid rgba(255, 0, 0, 0);
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;}
+.tg .tg-0lax{
+    text-align:center;
+    vertical-align:middle}
+
+.skill { max-width: 480px; font-family: system-ui, sans-serif; }
+.skill__label { display:flex; justify-content:space-between; margin-bottom:6px; font-size:14px; color:#222;}
+.skill__bar {
+  height:12px;
+  background:#e6e6e6;
+  border-radius:999px;
+  overflow:hidden;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+}
+.skill__fill {
+  height:100%;
+  width:0;
+  background: linear-gradient(90deg,#4caf50,#8bc34a);
+  border-radius:999px 0 0 999px;
+  transition: width 600ms ease;
+}
+
+/* small responsive tweak */
+@media (max-width:420px) {
+  .skill { max-width:100% }
+  .skill__label { font-size:13px }
+}
+</style>
+
 ## Introduction
 
-Hi! My name is Ivan and I'm a Videogame developer currently studying Language technology in the University of Helsinki. I have experience teaching kids and adults how to code. As programmer I use, mainly, C# and Python. As C# programmer I'm focused mainly in game developing with Unity, although I've also used Unreal Engine. As Python programmer I'm focused in data science and natural language processing using libraries such as spaCy, NLTK, pytorch, matplotlib, Pandas, numpy and tkinter for basic interfaces. I speak fluent english and also speak some finnish, russian and german.
+I’m a developer with a background in Computational Linguistics and Video Game Development, passionate about data, AI, and technology that connects language, people, and systems. I work primarily with Python (for data analysis, NLP, and machine learning) and SQL, I’m also proficient in C# for Unity and software development. In addition, I also have working knowledge of other languages such as C, JavaScript, Bash, HTML/CSS and other programming and scripting languages that support flexible problem-solving and automation.
 
-## Find me on
+My experience includes teaching Python and C#, developing machine learning models, and building tools that turn complex data into clear, usable insights. I’m skilled with frameworks and libraries such as Pandas, NumPy, Scikit-Learn, and Matplotlib, and I’m comfortable working with version control systems, like Git, and data formats like XML and JSON.
 
-[LinkedIn](https://www.linkedin.com/in/ivan-montejo-76a806110/en/), [GitHub](https://github.com/IvanInRainbows/)
-
-## Contact
-
-My email address is of the form ivan.montejodegarcini@helsinki.fi. 
-
-## Courses I've Taken
-
-[Command-Line Tools for Linguists](https://studies.helsinki.fi/kurssit/toteutus/hy-opt-cur-2526-261401a1-c550-4436-91b9-7edf4a1a3b57/KIK-LG221), fall 2025
-
-[Programming for Digital Humanities](https://studies.helsinki.fi/kurssit/toteutus/hy-opt-cur-2526-d85cca5c-0a41-4332-9f2b-5f8d82d602c9/LDA-H511), fall 2025
-
-[Introduction to Linguistic Diversity and Digital Humanities](https://studies.helsinki.fi/kurssit/toteutus/hy-opt-cur-2526-9df97501-21e6-4b8d-9de4-e91303f2ff71/LDA-301), fall 2025
-
-[Suomi 2A](https://studies.helsinki.fi/courses/course-implementation/hy-opt-cur-2526-ca10c16c-a048-430b-9ded-071b58cd8502/SUO-121), fall 2025
+I speak English and Spanish fluently and am currently learning Finnish. I’m always looking to grow as a developer and data professional, especially in roles that bridge data engineering, AI, and intelligent systems.
 
 ## Projects
 
@@ -44,6 +81,147 @@ Sample repository made for the [Command-Line Tools for Linguists](https://studie
 
 A desktop application built in python tkinter using wordnet libraries to analyze words in different levels and languages.
 
+## Programming languages
+
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0lax">Language</th>
+    <th class="tg-0lax">Level</th>
+    <th class="tg-0lax"></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Python</td>
+    <td class="tg-0lax">
+        <div class="skill__bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="78">
+            <div class="skill__fill" style="width:100%"></div>
+        </div>
+    </td>
+    <td class="tg-0lax"><img class="logo" src="assets/img/python-logo.png" width="40" height="40"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">SQL</td>
+    <td class="tg-0lax">
+        <div class="skill__bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="78">
+            <div class="skill__fill" style="width:90%"></div>
+        </div>
+    </td>
+    <td class="tg-0lax"><img class="logo" src="assets/img/SQL.png" height="40"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">C#</td>
+    <td class="tg-0lax">
+        <div class="skill__bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="78">
+            <div class="skill__fill" style="width:75%"></div>
+        </div>
+    </td>
+    <td class="tg-0lax"><img class="logo" src="assets/img/csh.png" height="40"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Bash</td>
+    <td class="tg-0lax">
+        <div class="skill__bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="78">
+            <div class="skill__fill" style="width:75%"></div>
+        </div>
+    </td>
+    <td class="tg-0lax"><img class="logo" src="assets/img/bash.png" height="40"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">HTML/CSS</td>
+    <td class="tg-0lax">
+        <div class="skill__bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="78">
+            <div class="skill__fill" style="width:75%"></div>
+        </div>
+    </td>
+    <td class="tg-0lax"><img class="logo" src="assets/img/htmlcss.png" height="40"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">JavaScript</td>
+    <td class="tg-0lax">
+        <div class="skill__bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="78">
+            <div class="skill__fill" style="width:50%"></div>
+        </div>
+    </td>
+    <td class="tg-0lax"><img class="logo" src="assets/img/js.png" height="40"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">C</td>
+    <td class="tg-0lax">
+        <div class="skill__bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="78">
+            <div class="skill__fill" style="width:40%"></div>
+        </div>
+    </td>
+    <td class="tg-0lax"><img class="logo" src="assets/img/C.png" height="40"></td>
+  </tr>
+</tbody>
+</table>
+
+## Software
+
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0lax">Name</th>
+    <th class="tg-0lax">Level</th>
+    <th class="tg-0lax"></th>
+  </tr></thead>
+<tbody>
+    <tr>
+        <td class="tg-0lax">git</td>
+        <td class="tg-0lax">Advanced</td>
+        <td class="tg-0lax"><img class="logo" src="assets/img/git.png" height="40"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Unity3D</td>
+    <td class="tg-0lax">Advanced</td>
+    <td class="tg-0lax"><img class="logo" src="assets/img/Unity.png" height="40"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Excel</td>
+    <td class="tg-0lax">Intermediate</td>
+    <td class="tg-0lax"><img class="logo" src="assets/img/excel.png" height="40"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Photoshop</td>
+    <td class="tg-0lax">Advanced</td>
+    <td class="tg-0lax"><img class="logo" src="assets/img/ps.png" height="40"></td>
+  </tr>
+</tbody>
+</table>
+
+## Education
+
+<h3 style="margin-bottom: 0px;">University Of Helsinki</h3>
+<span style="font-weight: bold;">Master's degree, Language technology</span><br>
+<span style="color: rgba(0,0,0,0.4);">2025-2027</span>
+
+<h3 style="margin-bottom: 0px;">Complutense university of Madrid</h3>
+<span style="font-weight: bold;">University degree, Computational linguistics</span><br>
+<span style="color: rgba(0,0,0,0.4);">2021-2025</span><br>
+<span style="color: rgba(0,0,0,0.4);">Graduated with honors in Databases and Computational linguistics</span>
+
+<h3 style="margin-bottom: 0px;">CEV Madrid</h3>
+<span style="font-weight: bold;">High national degree, 3D and Video-game development</span><br>
+<span style="color: rgba(0,0,0,0.4);">2015-2017</span>
+
+
+## Courses I've Taken in the University of Helsinki
+
+[Command-Line Tools for Linguists](https://studies.helsinki.fi/kurssit/toteutus/hy-opt-cur-2526-261401a1-c550-4436-91b9-7edf4a1a3b57/KIK-LG221), fall 2025
+
+[Programming for Digital Humanities](https://studies.helsinki.fi/kurssit/toteutus/hy-opt-cur-2526-d85cca5c-0a41-4332-9f2b-5f8d82d602c9/LDA-H511), fall 2025
+
+[Introduction to Linguistic Diversity and Digital Humanities](https://studies.helsinki.fi/kurssit/toteutus/hy-opt-cur-2526-9df97501-21e6-4b8d-9de4-e91303f2ff71/LDA-301), fall 2025
+
+[Suomi 2A](https://studies.helsinki.fi/courses/course-implementation/hy-opt-cur-2526-ca10c16c-a048-430b-9ded-071b58cd8502/SUO-121), fall 2025
+
+## Find me on
+
+[LinkedIn](https://www.linkedin.com/in/ivan-montejo-76a806110/en/), [GitHub](https://github.com/IvanInRainbows/)
+
+## Contact
+
+My email address is of the form ivan.montejodegarcini@helsinki.fi. 
+
 ## Misc. 
 
-[Gotta Love Cheese](https://en.wikipedia.org/wiki/Cheese) 
+Check out my [CV](https://www.overleaf.com/read/tyvbmmkpkczv#110a05) 
