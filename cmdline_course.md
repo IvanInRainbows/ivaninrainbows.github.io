@@ -135,3 +135,17 @@ Personally, despite being already very familiar with version control systems, th
 
 ## Final project
 
+The final project consists on building your own personal webpage hosted in Github pages in a CV/resume-like format and adding some information about the course. This gives you the chance to have your own personal webpage while learning some things about web development. This project is built using Jekyll, which is a site generator that transforms plain text files written in Markdown into HTML websites. This means that you'll learn how to use Markdown, which is a lightweight markup language designed to format plain text in a way that is easy to read and write. Nonetheless you are also encouraged to edit the styles in the CSS files (or just write HTML and CSS in Markdown). You can also edit the HTML but in my experience it's a bit messy, as the next time that you bundle Jekyll the changes will be reverted. Editing the CSS files is fine, although you'll have to do some digging into the files of the template used. For example, I edited the */_sass/jekyll-theme-minimal.scss* to add some custom styles:
+
+```css
+header img {
+  border: 6px solid rgb(0, 0, 0);
+  border-radius: 35px 2px 35px 2px;
+}
+```
+
+The code above is how I changed the style of every image that is inside the `<header>` label so it has a black border. I also added some radius to the top-left and bottom-right corners to make it a bit more stylized without breaking the aesthetic of the template.
+
+The page should summarize the content of the course and show some of the code written, as well as serve as a personal page. As I already mentioned the page is hosted in GitHub pages, which is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub and publishes a website.
+
+I think this page is a great way to present yourself, as you are both showing some of the skills learned and sharing it in a tidy and practical way. Markdown is extremely easy to learn and really useful when taking class notes, especially in subjects related to math, statistics and computer programming. This is because Jupyter notebooks uses markdown for the text cells, which allows you to combine code and notes in the same file. The markdown cells in the notebooks even let you use HTML/CSS and latex.
